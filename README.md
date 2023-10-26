@@ -1,2 +1,2 @@
 # Video-Stabilization for Teleoperated Systems
-Btech final year project
+This project involved the development of a memory-efficient but powerful video stabilisation algorithm designed to work on teleoperated systems. The method works by extracting features from each subsequent frame of the live feed and detecting their movement using the pyramidal implementation of the Lucas Kanade method. The correction phase involves using a Kalman Filter to predict the position of features for the current frame based on the previous one and morphing it, resulting in a smoother live feed.
